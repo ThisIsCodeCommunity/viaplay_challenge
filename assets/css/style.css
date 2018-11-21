@@ -1,0 +1,41 @@
+img {
+    width: 200px;
+    height: auto;
+    /* position: absolute; */
+}
+.display-show {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#main_content {
+    margin: 6% 10%;
+}
+
+#header {
+    min-height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#footer {
+    min-height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.logo-wrapper {
+    margin-left: calc(10% + 10px);
+}
+.logo {
+    height: 30px;
+    width: auto;
+    margin-top: 10px;
+}
+
