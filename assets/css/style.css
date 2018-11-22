@@ -1,9 +1,43 @@
-body {margin:0;}
-#header {background: #000;}
-.logo-wrapper {margin-left: 10%;padding: 15px 15px 15px 0;}
-.logo {height: 30px;width: auto;}
-#main_content {margin: 50px 10%;}
-.display-show {display: inline-block;width: 23%;width: calc(25% - ( ( 20px ) * 0.75 ) );margin-right: 20px;margin-bottom: 20px;}
-.display-show:nth-child(4n+4) {margin-right: 0;}
-.display-show img {width: 100%; height: auto;}
-#footer {height: 50px; background: #000;}
+body {
+    margin:0;
+}
+
+#header {
+    background: #000;
+}
+
+.logo-wrapper {
+    margin-left: 10%;
+    padding: 15px 15px 15px 0;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+#main_content {
+    margin: 50px 10%;
+}
+
+.display-show {
+    display: inline-block;
+    width: 23%;
+    width: calc(25% - ( ( 20px ) * 0.75 ) );
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.display-show:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.display-show img {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    height: 50px;
+    background: #000;
+}
